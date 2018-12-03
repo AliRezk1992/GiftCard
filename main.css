@@ -1,0 +1,33 @@
+body {
+    background-color: blueviolet;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 85vh; */
+    height: 700px;
+}
+main {
+    font-size: 20px;
+}
+
+
+section > div {
+    background-color: rgb(209, 53, 248);
+    width: 450px;
+    height: 250px;
+    border: 10px solid rgb(236, 187, 54);
+    padding: 30px;
+    margin: 30px;
+    text-align: center ;
+    box-shadow: 0 0 15px rgba(0,0,0,.4);
+    text-shadow: 0 0 2px rgba(0,0,0,.3);
+    border-radius: 5% 5%;
+}
+
+header {
+    display: flex;
+}
